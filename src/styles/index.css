@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#trafficTop {
+    background-color: black;
+    width: 20px;
+    height: 80px;
+    margin-left: 89px;
+  }
+  #container {
+    background-color: black;
+    width: 76px;
+    height: 240px;
+    margin-left: 60px;
+    padding: 7px;
+    border-radius: 10px;
+  }
+  .light{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 4px; 
+    cursor: pointer;
+    margin-bottom: 4px;
+    margin-top: 18px;
+    margin-left: 2px;
+ }
+    .red { 
+        background-color: #c90000;
+    }
+    .yellow {
+        background-color: #fbff00d8; 
+    }
+    .green {
+         background-color: #007929; 
+     }
+    .light.active{
+        opacity: 1;
+        box-shadow: #f8ffcc 0px 0px 50px 20px;
+    }
